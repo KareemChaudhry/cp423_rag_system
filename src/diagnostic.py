@@ -24,6 +24,7 @@ def ask_without_context(question):
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": question},
         ],
+        options={"seed": 42, "temperature": 0.0},  # fixed seed + greedy decoding for reproducible results
     )
     return response["message"]["content"]
 
@@ -58,5 +59,3 @@ def run():
 
 if __name__ == "__main__":
     run()
-
-
