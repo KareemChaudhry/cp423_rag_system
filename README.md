@@ -5,8 +5,10 @@ A Retrieval-Augmented Generation system built over the Wilfrid Laurier Universit
 Combines BM25 (classical) and sentence-transformer (dense) retrieval with a locally-run LLM (Llama 3.2 via Ollama) for cited question answering.
 
 ## Team
+```
 Tiara Bhakat - 169023019
-Kareem Chaudhry - 
+Kareem Chaudhry -
+``` 
 
 ## Project Structure
 
