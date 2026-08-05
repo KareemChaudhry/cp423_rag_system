@@ -1,0 +1,625 @@
+[
+  {
+    "id": "q1",
+    "type": "factoid",
+    "question": "Who is the Associate Dean, External, of the Faculty of Music at Wilfrid Laurier University?",
+    "reference_answer": "Kimberly Barber",
+    "methods": {
+      "bm25": {
+        "generated_answer": "Brennan Connolly is the Associate Dean, External, of the Faculty of Music at Wilfrid Laurier University.[C2]",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_012"
+          ],
+          "retrieved_docs": [
+            "doc_012",
+            "doc_270",
+            "doc_287",
+            "doc_304",
+            "doc_321"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_012_chunk_000",
+          "doc_270_chunk_000",
+          "doc_287_chunk_000",
+          "doc_304_chunk_000",
+          "doc_321_chunk_000"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      },
+      "dense": {
+        "generated_answer": "Brennan Connolly [C2].",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_012"
+          ],
+          "retrieved_docs": [
+            "doc_012",
+            "doc_270",
+            "doc_287",
+            "doc_304",
+            "doc_321"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_012_chunk_000",
+          "doc_270_chunk_000",
+          "doc_287_chunk_000",
+          "doc_321_chunk_000",
+          "doc_304_chunk_000"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "q2",
+    "type": "factoid",
+    "question": "What building is the Faculty of Music located in at Wilfrid Laurier University?",
+    "reference_answer": "Savvas Chamberlain Music Building",
+    "methods": {
+      "bm25": {
+        "generated_answer": "The Faculty of Music is located in the Savvas Chamberlain Music Building [C1].",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_012"
+          ],
+          "retrieved_docs": [
+            "doc_012",
+            "doc_086",
+            "doc_144",
+            "doc_270"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_270_chunk_000",
+          "doc_012_chunk_000",
+          "doc_144_chunk_018",
+          "doc_144_chunk_017",
+          "doc_086_chunk_000"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      },
+      "dense": {
+        "generated_answer": "The Faculty of Music at Wilfrid Laurier University is located in the Savvas Chamberlain Music Building [C1, C2, C3, C4, C5].",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_012"
+          ],
+          "retrieved_docs": [
+            "doc_012",
+            "doc_270",
+            "doc_287",
+            "doc_304",
+            "doc_321"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_012_chunk_000",
+          "doc_270_chunk_000",
+          "doc_287_chunk_000",
+          "doc_321_chunk_000",
+          "doc_304_chunk_000"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "q3",
+    "type": "factoid",
+    "question": "Who is the Principal-Dean and Registrar of Martin Luther University College?",
+    "reference_answer": "Kristine Lund, PhD",
+    "methods": {
+      "bm25": {
+        "generated_answer": "The Principal-Dean and Registrar of Martin Luther University College is Kristine Lund, PhD.[C1]",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_016"
+          ],
+          "retrieved_docs": [
+            "doc_016",
+            "doc_274",
+            "doc_291",
+            "doc_308",
+            "doc_325"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_016_chunk_000",
+          "doc_291_chunk_000",
+          "doc_274_chunk_000",
+          "doc_308_chunk_000",
+          "doc_325_chunk_000"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      },
+      "dense": {
+        "generated_answer": "The Principal-Dean and Registrar of Martin Luther University College is Kristine Lund, PhD [C1].",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_016"
+          ],
+          "retrieved_docs": [
+            "doc_016",
+            "doc_274",
+            "doc_291",
+            "doc_308",
+            "doc_325"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_308_chunk_000",
+          "doc_325_chunk_000",
+          "doc_291_chunk_000",
+          "doc_274_chunk_000",
+          "doc_016_chunk_000"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "q4",
+    "type": "factoid",
+    "question": "What is the address of Martin Luther University College?",
+    "reference_answer": "75 University Ave W, Waterloo ON, N2L 3C5",
+    "methods": {
+      "bm25": {
+        "generated_answer": "The address of Martin Luther University College is 75 University Ave W, Waterloo ON, N2L 3C5 [C1].",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_016"
+          ],
+          "retrieved_docs": [
+            "doc_016",
+            "doc_274",
+            "doc_291",
+            "doc_308",
+            "doc_325"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_016_chunk_000",
+          "doc_274_chunk_000",
+          "doc_291_chunk_000",
+          "doc_308_chunk_000",
+          "doc_325_chunk_000"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      },
+      "dense": {
+        "generated_answer": "The address of Martin Luther University College is 75 University Ave W, Waterloo ON, N2L 3C5.[C1], [C2], [C4], [C5]",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_016"
+          ],
+          "retrieved_docs": [
+            "doc_016",
+            "doc_274",
+            "doc_291",
+            "doc_308",
+            "doc_325"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_308_chunk_000",
+          "doc_325_chunk_000",
+          "doc_274_chunk_000",
+          "doc_291_chunk_000",
+          "doc_016_chunk_000"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "q5",
+    "type": "factoid",
+    "question": "What credit value is assigned to the course AN100 'Cultures Today' in Wilfrid Laurier's Anthropology program?",
+    "reference_answer": "0.5 credits",
+    "methods": {
+      "bm25": {
+        "generated_answer": "The course AN100 \"Cultures Today\" has a 0.5 credit value.\n\n[C1]",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_019"
+          ],
+          "retrieved_docs": [
+            "doc_019",
+            "doc_085",
+            "doc_174",
+            "doc_326"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_326_chunk_000",
+          "doc_019_chunk_004",
+          "doc_085_chunk_003",
+          "doc_019_chunk_001",
+          "doc_174_chunk_000"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      },
+      "dense": {
+        "generated_answer": "The course AN100 \"Cultures Today\" is assigned 0.5 Credit Hours per week. [C1]",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_019"
+          ],
+          "retrieved_docs": [
+            "doc_019",
+            "doc_326",
+            "doc_327",
+            "doc_352"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_326_chunk_000",
+          "doc_019_chunk_001",
+          "doc_352_chunk_000",
+          "doc_327_chunk_000",
+          "doc_019_chunk_004"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "q6",
+    "type": "multi-hop",
+    "question": "How many academic terms does a co-op student pay the co-op fee for, and how many work terms must they complete to earn the Co-operative Education designation?",
+    "reference_answer": "The co-op fee is paid in each of four academic terms; three work terms (normally four-month blocks) are required to earn the designation.",
+    "methods": {
+      "bm25": {
+        "generated_answer": "According to [C1], [C2], [C3], and [C5], participants pay a co-op fee in each of four academic terms. To obtain the co-op designation, students must complete all the requirements of both their academic program and the co-op program. \n\nHowever, the number of work terms required is not explicitly stated in these chunks. They only mention that three work terms are \"normally\" required [C1], but do not specify it as a strict requirement for earning the Co-operative Education designation.",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_438"
+          ],
+          "retrieved_docs": [
+            "doc_068",
+            "doc_182",
+            "doc_438"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_068_chunk_082",
+          "doc_438_chunk_125",
+          "doc_182_chunk_125",
+          "doc_438_chunk_138",
+          "doc_182_chunk_138"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      },
+      "dense": {
+        "generated_answer": "According to the provided context, a co-op student pays a co-op fee in each of four academic terms [C4]. \n\nTo earn the Co-operative Education designation, students must complete three work terms, normally completed over four-month blocks [C2], and also fulfill all the requirements of both their academic program [C5].",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_438"
+          ],
+          "retrieved_docs": [
+            "doc_068",
+            "doc_182",
+            "doc_247",
+            "doc_438"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_068_chunk_082",
+          "doc_247_chunk_011",
+          "doc_438_chunk_176",
+          "doc_182_chunk_176",
+          "doc_182_chunk_100"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "q7",
+    "type": "multi-hop",
+    "question": "Who are the Dean of the Faculty of Arts and the Dean of the Faculty of Music at Wilfrid Laurier University?",
+    "reference_answer": "Dean, Faculty of Arts: Sofie Lachapelle, PhD. Dean, Faculty of Music: Cynthia Johnston Turner, DMA.",
+    "methods": {
+      "bm25": {
+        "generated_answer": "The text does not provide the names of the Deans for both Faculties. However, it does provide information on some of the officials within the Faculty of Music.\n\nAccording to [C5], the Dean of the Faculty of Music is Cynthia Johnston Turner, DMA. \n\nThere is no mention of a Dean for the Faculty of Arts in the provided context chunks.",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_008",
+            "doc_012"
+          ],
+          "retrieved_docs": [
+            "doc_141",
+            "doc_144",
+            "doc_147",
+            "doc_158",
+            "doc_270"
+          ],
+          "recall": 0.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_141_chunk_002",
+          "doc_158_chunk_013",
+          "doc_144_chunk_007",
+          "doc_147_chunk_036",
+          "doc_270_chunk_000"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      },
+      "dense": {
+        "generated_answer": "The Dean of the Faculty of Arts at Wilfrid Laurier University is Sofie Lachapelle, PhD [C5], and the Dean of the Faculty of Music at Wilfrid Laurier University is Cynthia Johnston Turner, DMA [C1].",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_008",
+            "doc_012"
+          ],
+          "retrieved_docs": [
+            "doc_008",
+            "doc_012",
+            "doc_266",
+            "doc_270",
+            "doc_287"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_012_chunk_000",
+          "doc_270_chunk_000",
+          "doc_287_chunk_000",
+          "doc_266_chunk_000",
+          "doc_008_chunk_000"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "q8",
+    "type": "multi-hop",
+    "question": "What GPA is required to qualify for an admission interview through the standard Arts Co-op application process, and what minimum grade point standing is required for the Faculty of Arts Direct Entry to Co-op pathway instead?",
+    "reference_answer": "The standard process requires a minimum GPA of 7.00 overall in Year 1 to qualify for an admission interview. The Direct Entry pathway instead requires a minimum of 10.5 grade point standing in the first year of the undergraduate program.",
+    "methods": {
+      "bm25": {
+        "generated_answer": "To qualify for an admission interview through the standard Arts Co-op application process, applicants must obtain a minimum GPA of 7.00 overall in Year 1 ([C1]). \n\nFor the Faculty of Arts Direct Entry to Co-op pathway, students must achieve a minimum of a 10.5 grade point standing in the first year of the undergraduate program ([C4]).",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_438"
+          ],
+          "retrieved_docs": [
+            "doc_182",
+            "doc_438"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_182_chunk_012",
+          "doc_438_chunk_012",
+          "doc_438_chunk_014",
+          "doc_182_chunk_014",
+          "doc_182_chunk_013"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      },
+      "dense": {
+        "generated_answer": "To qualify for an admission interview through the standard Arts Co-op application process, applicants must obtain a minimum GPA of 7.00 overall in Year 1 [C2]. \n\nFor the Faculty of Arts Direct Entry to Co-op pathway, students in this program must achieve a minimum of a 10.5 grade point standing in the first year of the undergraduate program [C3].",
+        "retrieval_score": {
+          "expected_docs": [
+            "doc_438"
+          ],
+          "retrieved_docs": [
+            "doc_068",
+            "doc_182",
+            "doc_438"
+          ],
+          "recall": 1.0
+        },
+        "retrieved_chunk_ids": [
+          "doc_438_chunk_012",
+          "doc_182_chunk_012",
+          "doc_438_chunk_014",
+          "doc_182_chunk_014",
+          "doc_068_chunk_009"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "q9",
+    "type": "unanswerable",
+    "question": "What is the acceptance rate for Wilfrid Laurier University's Computer Science program?",
+    "reference_answer": "I don't know / not present in the corpus.",
+    "methods": {
+      "bm25": {
+        "generated_answer": "I don't know.",
+        "retrieval_score": null,
+        "retrieved_chunk_ids": [
+          "doc_068_chunk_000",
+          "doc_242_chunk_004",
+          "doc_086_chunk_000",
+          "doc_323_chunk_005",
+          "doc_306_chunk_005"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      },
+      "dense": {
+        "generated_answer": "I don't know.",
+        "retrieval_score": null,
+        "retrieved_chunk_ids": [
+          "doc_434_chunk_006",
+          "doc_178_chunk_006",
+          "doc_096_chunk_015",
+          "doc_262_chunk_022",
+          "doc_004_chunk_022"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "q10",
+    "type": "unanswerable",
+    "question": "What is the cost of a meal plan at Wilfrid Laurier University?",
+    "reference_answer": "I don't know / not present in the corpus.",
+    "methods": {
+      "bm25": {
+        "generated_answer": "I don't know. The context does not mention the cost of a meal plan at Wilfrid Laurier University.",
+        "retrieval_score": null,
+        "retrieved_chunk_ids": [
+          "doc_155_chunk_004",
+          "doc_136_chunk_000",
+          "doc_144_chunk_018",
+          "doc_144_chunk_017",
+          "doc_144_chunk_016"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      },
+      "dense": {
+        "generated_answer": "I don't know. The context does not specify the cost of a meal plan at Wilfrid Laurier University. It only mentions that students agree to pay for \"charges for residence, meal plans\" as part of their responsibilities [C2, C5].",
+        "retrieval_score": null,
+        "retrieved_chunk_ids": [
+          "doc_107_chunk_001",
+          "doc_107_chunk_003",
+          "doc_005_chunk_001",
+          "doc_314_chunk_001",
+          "doc_280_chunk_001"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "q11",
+    "type": "unanswerable",
+    "question": "What is the WLU campus wifi network name and password?",
+    "reference_answer": "I don't know / not present in the corpus.",
+    "methods": {
+      "bm25": {
+        "generated_answer": "I don't know.",
+        "retrieval_score": null,
+        "retrieved_chunk_ids": [
+          "doc_151_chunk_015",
+          "doc_323_chunk_003",
+          "doc_250_chunk_003",
+          "doc_306_chunk_003",
+          "doc_289_chunk_003"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      },
+      "dense": {
+        "generated_answer": "I don't know. This information is not provided in the context.",
+        "retrieval_score": null,
+        "retrieved_chunk_ids": [
+          "doc_194_chunk_001",
+          "doc_154_chunk_000",
+          "doc_087_chunk_001",
+          "doc_230_chunk_016",
+          "doc_302_chunk_001"
+        ],
+        "manual_judgment": {
+          "correct": null,
+          "supported_by_citation": null,
+          "notes": ""
+        }
+      }
+    }
+  }
+]
