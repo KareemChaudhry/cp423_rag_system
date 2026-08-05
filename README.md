@@ -9,23 +9,30 @@ Tiara Bhakat - 169023019
 Kareem Chaudhry - 
 
 ## Project Structure
+
+```
 cp423_rag_system/
 ├── data/
-│   ├── raw/       # Scraped Laurier HTML/text docs
-│   └── chunks/    # Chunked text JSON files 
+│   ├── raw/          # Scraped Laurier HTML/text docs
+│   └── chunks/        # Chunked text JSON files
 ├── eval/
-│   └── eval_set.json  # 11 gold-standard question/answers
-│   └── eval_results.json    # both methods
+│   ├── diagnostic_questions.json  # 10 no-context diagnostic questions
+│   ├── diagnostic_results.json    # diagnostic experiment results
+│   ├── eval_set.json      # 11 gold-standard question/answers
+│   └── eval_results.json  # both methods
 ├── src/
-│   ├── scraper.py            # Corpus collection script
-│   ├── chunker.py            # Text processing & chunking
-│   ├── retriever.py          # BM25 + Dense vector search
-│   └── pipeline.py      # LLM prompt & citation generator
-│   └── evaluate.py     # runs the evaluation 
+│   ├── scraper.py     # Corpus collection script
+│   ├── diagn.py     # Corpus collection script
+│   ├── chunker.py     # Text processing & chunking
+│   ├── retriever.py   # BM25 + Dense vector search
+│   ├── pipeline.py    # LLM prompt & citation generator
+│   ├── diagnostic.py  # runs the corpus-suitability diagnostic
+│   └── evaluate.py    # runs the evaluation
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
-└── run_it_all.py        # Single command execution script
+└── run_it_all.py       # Single command execution script
+```
 
 ## Prerequisites
 
