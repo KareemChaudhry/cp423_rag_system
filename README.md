@@ -24,7 +24,6 @@ cp423_rag_system/
 │   └── eval_results.json  # both methods
 ├── src/
 │   ├── scraper.py     # Corpus collection script
-│   ├── diagn.py     # Corpus collection script
 │   ├── chunker.py     # Text processing & chunking
 │   ├── retriever.py   # BM25 + Dense vector search
 │   ├── pipeline.py    # LLM prompt & citation generator
