@@ -7,7 +7,7 @@ Combines BM25 (classical) and sentence-transformer (dense) retrieval with a loca
 ## Team
 ```
 Tiara Bhakat - 169023019
-Kareem Chaudhry -
+Kareem Chaudhry - 169035228
 ``` 
 
 ## Project Structure
