@@ -1,0 +1,72 @@
+[
+  {
+    "id": "d1",
+    "question": "Who is the Dean of the Faculty of Human and Social Sciences at Wilfrid Laurier University's Brantford campus?",
+    "reference_answer": "Tarah Brookfield, PhD",
+    "source_doc": "doc_010",
+    "model_answer_no_context": "I don't know"
+  },
+  {
+    "id": "d2",
+    "question": "Who is the Dean of the Faculty of Music at Wilfrid Laurier University?",
+    "reference_answer": "Cynthia Johnston Turner, DMA",
+    "source_doc": "doc_012",
+    "model_answer_no_context": "I don't know."
+  },
+  {
+    "id": "d3",
+    "question": "Who is the Dean of the Faculty of Arts at Wilfrid Laurier University?",
+    "reference_answer": "Sofie Lachapelle, PhD",
+    "source_doc": "doc_008",
+    "model_answer_no_context": "I don't know"
+  },
+  {
+    "id": "d4",
+    "question": "What course code is used for the 'Fundamentals of Co-operative Education' course at Wilfrid Laurier University?",
+    "reference_answer": "COOP-000",
+    "source_doc": "doc_438",
+    "model_answer_no_context": "I don't know"
+  },
+  {
+    "id": "d5",
+    "question": "How many work terms are normally required to complete the Co-operative Education designation at Wilfrid Laurier University?",
+    "reference_answer": "Three work terms, normally completed over four-month blocks",
+    "source_doc": "doc_438",
+    "model_answer_no_context": "Typically 4 work terms."
+  },
+  {
+    "id": "d6",
+    "question": "What is the minimum full-time credit load per term required to remain eligible for Wilfrid Laurier's International Entrance Scholarship?",
+    "reference_answer": "2.0 credits minimum per term",
+    "source_doc": "doc_004",
+    "model_answer_no_context": "I don't know."
+  },
+  {
+    "id": "d7",
+    "question": "What building houses the Faculty of Human and Social Sciences at Wilfrid Laurier University's Brantford campus?",
+    "reference_answer": "Carnegie Building, 73 George Street, Brantford, Ontario N3T 2Y3",
+    "source_doc": "doc_010",
+    "model_answer_no_context": "The building housing the Faculty of Human and Social Sciences at Wilfrid Laurier University's Brantford campus is the Wooding House, but I couldn't confirm this information."
+  },
+  {
+    "id": "d8",
+    "question": "What is the course code and credit value of 'Cultures Today' in Wilfrid Laurier's Anthropology program?",
+    "reference_answer": "AN100, 0.5 credits",
+    "source_doc": "doc_019",
+    "model_answer_no_context": "I don't know."
+  },
+  {
+    "id": "d9",
+    "question": "Who is the Associate Dean of the Faculty of Arts at Wilfrid Laurier University?",
+    "reference_answer": "Jason Roy, PhD",
+    "source_doc": "doc_008",
+    "model_answer_no_context": "I don't know"
+  },
+  {
+    "id": "d10",
+    "question": "What are the office hours for the Faculty of Human and Social Sciences at Wilfrid Laurier University's Brantford campus?",
+    "reference_answer": "Monday to Friday, 8:30 a.m. to 4:30 p.m.",
+    "source_doc": "doc_010",
+    "model_answer_no_context": "I don't know."
+  }
+]

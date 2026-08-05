@@ -1,0 +1,90 @@
+[
+  {
+    "id": "q1",
+    "type": "factoid",
+    "question": "Who is the Associate Dean, External, of the Faculty of Music at Wilfrid Laurier University?",
+    "reference_answer": "Kimberly Barber",
+    "source_doc_ids": ["doc_012"],
+    "notes": "Verify against doc_012 raw text before finalizing."
+  },
+  {
+    "id": "q2",
+    "type": "factoid",
+    "question": "What building is the Faculty of Music located in at Wilfrid Laurier University?",
+    "reference_answer": "Savvas Chamberlain Music Building",
+    "source_doc_ids": ["doc_012"],
+    "notes": "Verify against doc_012 raw text before finalizing."
+  },
+  {
+    "id": "q3",
+    "type": "factoid",
+    "question": "Who is the Principal-Dean and Registrar of Martin Luther University College?",
+    "reference_answer": "Kristine Lund, PhD",
+    "source_doc_ids": ["doc_016"],
+    "notes": "Verify against doc_016 raw text before finalizing."
+  },
+  {
+    "id": "q4",
+    "type": "factoid",
+    "question": "What is the address of Martin Luther University College?",
+    "reference_answer": "75 University Ave W, Waterloo ON, N2L 3C5",
+    "source_doc_ids": ["doc_016"],
+    "notes": "Verify against doc_016 raw text before finalizing."
+  },
+  {
+    "id": "q5",
+    "type": "factoid",
+    "question": "What credit value is assigned to the course AN100 'Cultures Today' in Wilfrid Laurier's Anthropology program?",
+    "reference_answer": "0.5 credits",
+    "source_doc_ids": ["doc_019"],
+    "notes": "Verify against doc_019 raw text before finalizing."
+  },
+  {
+    "id": "q6",
+    "type": "multi-hop",
+    "question": "How many academic terms does a co-op student pay the co-op fee for, and how many work terms must they complete to earn the Co-operative Education designation?",
+    "reference_answer": "The co-op fee is paid in each of four academic terms; three work terms (normally four-month blocks) are required to earn the designation.",
+    "source_doc_ids": ["doc_438_chunk_037", "doc_438_chunk_007"],
+    "notes": "Requires combining two separate chunks within doc_438 -- confirm both chunk_ids still match after any chunker changes."
+  },
+  {
+    "id": "q7",
+    "type": "multi-hop",
+    "question": "Who are the Dean of the Faculty of Arts and the Dean of the Faculty of Music at Wilfrid Laurier University?",
+    "reference_answer": "Dean, Faculty of Arts: Sofie Lachapelle, PhD. Dean, Faculty of Music: Cynthia Johnston Turner, DMA.",
+    "source_doc_ids": ["doc_008", "doc_012"],
+    "notes": "Requires combining facts from two different documents."
+  },
+  {
+    "id": "q8",
+    "type": "multi-hop",
+    "question": "What GPA is required to qualify for an admission interview through the standard Arts Co-op application process, and what minimum grade point standing is required for the Faculty of Arts Direct Entry to Co-op pathway instead?",
+    "reference_answer": "The standard process requires a minimum GPA of 7.00 overall in Year 1 to qualify for an admission interview. The Direct Entry pathway instead requires a minimum of 10.5 grade point standing in the first year of the undergraduate program.",
+    "source_doc_ids": ["doc_438_chunk_012", "doc_438_chunk_014"],
+    "notes": "Two genuinely distinct admission pathways with different GPA thresholds, confirmed from two separate chunks within doc_438. Source: https://academic-calendar.wlu.ca/section.php?cal=1&s=1151&ss=4554&y=92"
+  },
+  {
+    "id": "q9",
+    "type": "unanswerable",
+    "question": "What is the acceptance rate for Wilfrid Laurier University's Computer Science program?",
+    "reference_answer": "I don't know / not present in the corpus.",
+    "source_doc_ids": [],
+    "notes": "Confirmed absent -- corpus is an academic calendar (policies/programs), not admissions statistics."
+  },
+  {
+    "id": "q10",
+    "type": "unanswerable",
+    "question": "What is the cost of a meal plan at Wilfrid Laurier University?",
+    "reference_answer": "I don't know / not present in the corpus.",
+    "source_doc_ids": [],
+    "notes": "Confirmed absent from scraped corpus."
+  },
+  {
+    "id": "q11",
+    "type": "unanswerable",
+    "question": "What is the WLU campus wifi network name and password?",
+    "reference_answer": "I don't know / not present in the corpus.",
+    "source_doc_ids": [],
+    "notes": "Confirmed absent from scraped corpus."
+  }
+]
